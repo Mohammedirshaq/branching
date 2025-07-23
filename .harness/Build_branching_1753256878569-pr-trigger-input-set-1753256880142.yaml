@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_branching_1753256878569-pr-trigger-input-set
+  identifier: Build_branching_1753256878569prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: SFTY_Training
+  pipeline:
+    identifier: Build_branching_1753256878569
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
